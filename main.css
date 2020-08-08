@@ -1,0 +1,121 @@
+.game
+{
+    width: 1000px;
+    border: solid 1px #ddd;
+    margin: auto;
+   background: #777777;
+border: solid 10px;
+text-align:center;
+min-height:650px;
+}
+
+.btn{
+	background:#555555;
+    border:dubleborder;
+    padding: 10px 30px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#222222;
+}
+
+.game h3
+{
+padding: 10px;
+background:black;
+color:white;
+}
+
+.game .game-body
+{
+padding: 20px;
+}
+
+.game .game-options
+{
+text-align:center;
+margin: 10px;
+}
+
+.gamer-options
+{
+	width:min 50px;
+	height: mim 100px;
+	border: silid 2px #000;
+	padding: 5px;
+	border-radius: 3px;	
+	margin: auto;
+}
+.game .karta{
+    width: 50px;
+    height: 75px;
+    padding: 10px;
+    border: solid 2px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.game .status
+{
+display: inline-block;
+background: #EEE;
+border: solid 5px #000;
+border-radius: 10px;
+padding: 5px 20px;
+margin: 0 auto;
+margin-top: 10px;
+display:none;
+}
+
+
+.gracze{
+       width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+
+.gracz{
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+}
+
+.gracz.active{
+    border: solid 5px #222;
+}
+
+.points{
+    text-align: center;
+    font-size: 20pt;
+    font-waga: bold;
+    margin: 10px;
+}
+
+.plansza{
+    float:left;
+    background: white;
+    color:#222;
+    padding: 10px;
+    border-radius:10px;
+    border: double 5px;
+}
+
+.btn
+{
+    background:#222;
+    color:white !important;
+    border-radius:2px;
+}
